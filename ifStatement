@@ -1,0 +1,9 @@
+prefixes = 'JKLMNOPQ'
+suffix = 'ack'
+suffixAlt = 'uack'
+
+for letter in prefixes:
+    if letter == ('Q' or 'O'):
+        print(letter + suffixAlt)
+    else:
+        print(letter +suffix)
